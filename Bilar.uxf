@@ -3,4 +3,15 @@
 billista[bil]
 looping: Boolean
 --
-main(): program</panel_attributes><additional_attributes></additional_attributes></element></diagram>
+main(): program</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>580</x><y>260</y><w>130</w><h>260</h></coordinates><panel_attributes>Bil
+--
+fabrikat:string
+color: string
+lager: int
+--
+_init_constructor
+setFabrikat(str)
+getFabrikat():str
+getColor():str
+getLager():int
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>450</x><y>400</y><w>150</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>130;10;10;10</additional_attributes></element></diagram>
